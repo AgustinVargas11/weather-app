@@ -1,0 +1,41 @@
+td, th {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+td:first-of-type,
+td:first-of-type > div {
+    width: 175px;
+    height: 150px;
+}
+
+svg {
+    width: 200px;
+}
+
+.table th {
+    padding: .5em;
+    font-size: .8em;
+}
+
+.table td {
+    font-size: .8em;
+}
+
+@media (min-width: 700px) {
+
+    td:first-of-type,
+    td:first-of-type > div {
+        width: 250px;
+        height: 200px;
+    }
+
+    .table th {
+        padding: .75rem;
+        font-size: .9em;
+    }
+
+    .table td {
+        font-size: .9em;
+    }
+}
